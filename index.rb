@@ -23,8 +23,52 @@
 # puts states[:ON];
 
 # Method
-def sayHi(number)
-  return "Hello User " + number.to_s
-end
+# def sayHi(number)
+#   return "Hello User " + number.to_s
+# end
 
-puts sayHi(5)
+# puts sayHi(5)
+
+# if-statement
+# isMale = true;
+# isTall = false;
+
+# if isMale or isTall
+#   puts "You are male."
+# elsif isMale and !isTall
+#   puts "You are neutral"
+# else 
+#   puts "You are female."
+# end
+
+puts "Enter a number: ";
+num1 = gets.chomp().to_f;
+puts "Enter a operator: ";
+op = gets.chomp();
+puts "Enter another number: ";
+num2 = gets.chomp().to_f;
+
+# if op == "+"
+#   puts num1 + num2;
+# elsif op == "-"
+#   puts num1 - num2;
+# elsif op == "*"
+#   puts num1 * num2;
+# elsif op == "/"
+#   puts num1 / num2;
+# else
+#   puts "Invalid operator";
+# end
+
+case op 
+when "+"
+  puts num1 + num2;
+when "-"
+  puts num1 - num2;
+when "*"
+  puts num1 * num2;
+when "/"
+  puts num1 / num2;
+else
+  puts "Invalid operator"
+end
