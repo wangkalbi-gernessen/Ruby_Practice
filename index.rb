@@ -41,12 +41,12 @@
 #   puts "You are female."
 # end
 
-puts "Enter a number: ";
-num1 = gets.chomp().to_f;
-puts "Enter a operator: ";
-op = gets.chomp();
-puts "Enter another number: ";
-num2 = gets.chomp().to_f;
+# puts "Enter a number: ";
+# num1 = gets.chomp().to_f;
+# puts "Enter a operator: ";
+# op = gets.chomp();
+# puts "Enter another number: ";
+# num2 = gets.chomp().to_f;
 
 # if op == "+"
 #   puts num1 + num2;
@@ -60,15 +60,30 @@ num2 = gets.chomp().to_f;
 #   puts "Invalid operator";
 # end
 
-case op 
-when "+"
-  puts num1 + num2;
-when "-"
-  puts num1 - num2;
-when "*"
-  puts num1 * num2;
-when "/"
-  puts num1 / num2;
-else
-  puts "Invalid operator"
+# case op 
+# when "+"
+#   puts num1 + num2;
+# when "-"
+#   puts num1 - num2;
+# when "*"
+#   puts num1 * num2;
+# when "/"
+#   puts num1 / num2;
+# else
+#   puts "Invalid operator"
+# end
+
+# While loop
+# num = 1
+
+# while num <= 5
+#  puts num
+#  num += 1
+# end
+
+# For loop
+canada = ["Vancouver", "Toronto", "Calgary", "Montreal", "Ottawa"];
+
+for index in 0..canada.length()-1
+  puts canada[index]
 end
