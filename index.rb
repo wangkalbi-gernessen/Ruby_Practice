@@ -82,8 +82,18 @@
 # end
 
 # For loop
-canada = ["Vancouver", "Toronto", "Calgary", "Montreal", "Ottawa"];
+# canada = ["Vancouver", "Toronto", "Calgary", "Montreal", "Ottawa"];
 
-for index in 0..canada.length()-1
-  puts canada[index]
-end
+# for index in 0..canada.length()-1
+#   puts canada[index]
+# end
+
+# class & object
+# class Book
+#   attr_accessor :title, :author, :pages
+# end 
+
+# book1 = Book.new()
+# book.title = "Harry Potter"
+# book.author = "JK Rowlink"
+# book.pags = 400
