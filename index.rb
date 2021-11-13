@@ -89,11 +89,11 @@
 # end
 
 # class & object
-# class Book
-#   attr_accessor :title, :author, :pages
-# end 
+class Book
+  attr_accessor :title, :author, :pages
+end 
 
-# book1 = Book.new()
-# book.title = "Harry Potter"
-# book.author = "JK Rowlink"
-# book.pags = 400
+book1 = Book.new()
+book.title = "Harry Potter"
+book.author = "JK Rowlink"
+book.pags = 400
